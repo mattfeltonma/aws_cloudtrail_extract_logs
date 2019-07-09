@@ -15,6 +15,8 @@ This Python solution extracts the log entries from S3 and writes them to a flat 
 ## Setup
 This solution is designed to be run by using an AWS IAM Role.  The role must have list s3:ListBucket and s3:GetObject permissions on the S3 bucket where the CloudTrail logs are stored.  The solution assumes that the bucket is dedicated to CloudTrail and there are no other objects in the bucket using the CloudTrail prefix.
 
+The user specified date and time must be in the format of MM/DD/YYYY
+
 A sample parameters file is included.
 
 ## Running
