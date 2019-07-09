@@ -1,0 +1,6 @@
+{
+    "CloudTrailBucket":"mycloudtrailbucket",
+    "MaxFileSize":20000000,
+    "StartDate":"07/01/2019",
+    "EndDate":"07/10/2019"
+}
